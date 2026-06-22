@@ -94,7 +94,7 @@ Raycast extensions are open source and live in the [raycast/extensions](https://
    npm run build && npm run lint
    ```
 2. **Screenshots** — add 3–6 images to a `metadata/` folder. In dev mode, press **⌘⇧2** in Raycast to capture store screenshots.
-3. **Naming** — an [official TickTick extension](https://www.raycast.com/appest/ticktick) already exists in the store. Using the same name/icon may be rejected. Consider renaming (e.g. **TickTick+**, **TickTick Power**) and using a distinct icon before submitting.
+3. **Naming** — an [official TickTick extension](https://www.raycast.com/appest/ticktick) already exists in the store under the slug `ticktick`. This extension uses **`ticktick-plus`** / **TickTick+** so it publishes as a separate extension (do not use slug `ticktick` or `pull-contributions` will merge the official extension and cause conflicts).
 
 ### Submit
 
