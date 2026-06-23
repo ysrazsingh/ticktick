@@ -96,7 +96,12 @@ export default function Pomodoro() {
             short_break: "☕ Short Break — 5 min",
             long_break: "🌿 Long Break — 15 min",
           };
-          const colors: Record<PomodoroPhase, Color> = { idle: Color.SecondaryText, work: Color.Red, short_break: Color.Green, long_break: Color.Blue };
+          const colors: Record<PomodoroPhase, Color> = {
+            idle: Color.SecondaryText,
+            work: Color.Red,
+            short_break: Color.Green,
+            long_break: Color.Blue,
+          };
           return (
             <List.Item
               key={phase}
